@@ -14,7 +14,7 @@ fondo = pygame.image.load('assets/fondo.jpg').convert_alpha()
 fondo = pygame.transform.scale(fondo, (ANCHO, ALTO))
 
 # surface game over
-srfcGameOver = pygame.Surface((ANCHO, 230), pygame.SRCALPHA) #pygame.SRCALPHA: perimta la opacidad
+srfcGameOver = pygame.Surface((ANCHO, 230), pygame.SRCALPHA) #pygame.SRCALPHA: permita la opacidad
 
 btnPlayAgain = pygame.Surface((124, 40))
 btnPlayAgainRect = btnPlayAgain.get_rect(x=(ANCHO / 2 - 62), y=(srfcGameOver.get_size()[1] + 60))
